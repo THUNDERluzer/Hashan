@@ -57,7 +57,7 @@ module.exports = {
   KOYEB_API : process.env.KOYEB_API || ''
 };
 
-global.isMongodb = false; 
+global.isMongodb = true; 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
