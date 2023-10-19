@@ -21,8 +21,7 @@ global.scan  = process.env.QR_URL || 'https://wa.me/qr/P6WADRJOKAFUK1';
 global.website = 'https://wa.me/qr/P6WADRJOKAFUK1' ; //wa.me/+923000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/7721cf222f9790f3fcd1b.jpg' ;
 module.exports = {
-  sessionName: process.env.SESSION_ID || "Secktor;;;SargeSquished"
-QiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlFXUGptc2piL2FKVXFMbTVLV0k2VGxxZU9CQ3BLeGJMQ2g2Rlc5aG5xaG0ifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE2OTc2ODIzMTYsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBTlV0In0=",      //Put Your Session Id Here
+  sessionName: process.env.SESSION_ID || "Secktor;;;SargeSquished",      //Put Your Session Id Here
   botname: process.env.BOT_NAME || 'Hashan',
   botbgm: process.env.BOT_BGM || 'true',
   ownername:  process.env.OWNER_NAME || `Hashan`,
