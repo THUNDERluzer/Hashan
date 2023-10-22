@@ -26,13 +26,13 @@ module.exports = {
   botbgm: process.env.BOT_BGM || 'false',
   ownername:  process.env.OWNER_NAME || `Hashan`,
   author:  process.env.PACK_AUTHER || '',
-  errorChat : process.env.ERROR_CHAT|| '', // put 'chat' here to send error in chat ,where it accures
+  errorChat : process.env.ERROR_CHAT|| 'chat', // put 'chat' here to send error in chat ,where it accures
   read_status : process.env.AUTO_READ_STATUS || 'true',
   save_status : process.env.AUTO_SAVE_STATUS || 'true',
   packname:  process.env.PACK_NAME || "\t   𓅋 ₊94782543893 𓃮 \n\ncontact me...\n\nᴄʟօsᴇ ყσυɾ ᴇყᴇs...👁️🙈\n\nʍɪss ʍᴇ...♥️\n\n\n   -ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ᴛᴀӄᴇ 🚮 \n\n--- ρυвʟɪᴄ вσт нᴇʀᴇ ---" ,
   autoreaction: process.env.AUTO_REACTION || 'cmd',  //  | 'cmd' | 'true' | 'all' |
   antibadword : process.env.ANTI_BAD_WORD || 'hutt',
-  alwaysonline: process.env.WAPRESENCE || 'composing', // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
+  alwaysonline: process.env.WAPRESENCE || 'unavailable', // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
   antifake : 'null', // process.env.FAKE_COUNTRY_CODE ||'212',
   readmessage: process.env.READ_MESSAGE || 'false',   //  | 'false' | 'true' | 
   readcmds : process.env.READ_COMMANDS || 'false',    //  | 'false' | 'true' | 
