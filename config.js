@@ -26,7 +26,7 @@ module.exports = {
   botbgm: process.env.BOT_BGM || 'false',
   ownername:  process.env.OWNER_NAME || `Hashan`,
   author:  process.env.PACK_AUTHER || '',
-  errorChat : process.env.ERROR_CHAT|| 'chat', // put 'chat' here to send error in chat ,where it accures
+  errorChat : process.env.ERROR_CHAT|| '', // put 'chat' here to send error in chat ,where it accures
   read_status : process.env.AUTO_READ_STATUS || 'true',
   save_status : process.env.AUTO_SAVE_STATUS || 'true',
   packname:  process.env.PACK_NAME || "\t   𓅋 ₊94782543893 𓃮 \n\ncontact me...\n\nᴄʟօsᴇ ყσυɾ ᴇყᴇs...👁️🙈\n\nʍɪss ʍᴇ...♥️\n\n\n   -ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ᴛᴀӄᴇ 🚮 \n\n--- ρυвʟɪᴄ вσт нᴇʀᴇ ---" ,
@@ -57,7 +57,7 @@ module.exports = {
   KOYEB_API : process.env.KOYEB_API || ''
 };
 
-global.isMongodb = true; 
+global.isMongodb = false; 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
