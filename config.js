@@ -23,10 +23,10 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/7721cf2
 module.exports = {
   sessionName: process.env.SESSION_ID || "Secktor;;;SargeSquished",      //Put Your Session Id Here
   botname: process.env.BOT_NAME || 'Hashan',
-  botbgm: process.env.BOT_BGM || 'false',
+  botbgm: process.env.BOT_BGM || 'true',
   ownername:  process.env.OWNER_NAME || `Hashan`,
-  author:  process.env.PACK_AUTHER || '',
-  errorChat : process.env.ERROR_CHAT|| '', // put 'chat' here to send error in chat ,where it accures
+  author:  process.env.PACK_AUTHER || 'Hashan',
+  errorChat : process.env.ERROR_CHAT|| 'chat', // put 'chat' here to send error in chat ,where it accures
   read_status : process.env.AUTO_READ_STATUS || 'true',
   save_status : process.env.AUTO_SAVE_STATUS || 'true',
   packname:  process.env.PACK_NAME || "\t   𓅋 ₊94782543893 𓃮 \n\ncontact me...\n\nᴄʟօsᴇ ყσυɾ ᴇყᴇs...👁️🙈\n\nʍɪss ʍᴇ...♥️\n\n\n   -ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ᴛᴀӄᴇ 🚮 \n\n--- ρυвʟɪᴄ вσт нᴇʀᴇ ---" ,
