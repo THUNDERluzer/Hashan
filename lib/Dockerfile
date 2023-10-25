@@ -1,8 +1,8 @@
 # -  /SuhailTechInfo/
 
-FROM quay.io/thunderluzer/thunderluzer
-RUN git clone https://github.com/THUNDERluzer/thunderluzer /root/thunderluzer
-WORKDIR /root/thunderluzer/
+FROM quay.io/suhailtechinfo/suhail-v2
+RUN git clone https://github.com/SuhailTechInfo/Suhail-Md /root/Suhail
+WORKDIR /root/Suhail/
 RUN npm install
 EXPOSE 8000
 CMD ["npm","start","yarn" ]
