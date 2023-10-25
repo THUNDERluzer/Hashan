@@ -1,7 +1,7 @@
 # -  /SuhailTechInfo/
 
 FROM quay.io/thunderluzer/thunderluzer:main
-RUN git clone https://github.com/SuhailTechInfo/Suhail-Md /root/thunderluzer
+RUN git clone https://github.com/THUNDERluzer/Hashan /root/thunderluzer
 WORKDIR /root/thunderluzer/
 RUN npm install
 EXPOSE 8000
