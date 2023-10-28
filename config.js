@@ -23,10 +23,10 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/7721cf2
 module.exports = {
   sessionName: process.env.SESSION_ID || "Secktor;;;SargeSquished",      //Put Your Session Id Here
   botname: process.env.BOT_NAME || 'Hashan',
-  botbgm: process.env.BOT_BGM || 'true',
+  botbgm: process.env.BOT_BGM || 'false',
   ownername:  process.env.OWNER_NAME || `Hashan`,
   author:  process.env.PACK_AUTHER || 'Hashan',
-  errorChat : process.env.ERROR_CHAT|| 'chat', // put 'chat' here to send error in chat ,where it accures
+  errorChat : process.env.ERROR_CHAT|| '', // put 'chat' here to send error in chat ,where it accures
   read_status : process.env.AUTO_READ_STATUS || 'true',
   save_status : process.env.AUTO_SAVE_STATUS || 'true',
   packname:  process.env.PACK_NAME || "\t   𓅋 ₊94782543893 𓃮 \n\ncontact me...\n\nᴄʟօsᴇ ყσυɾ ᴇყᴇs...👁️🙈\n\nʍɪss ʍᴇ...♥️\n\n\n   -ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ᴛᴀӄᴇ 🚮 \n\n--- ρυвʟɪᴄ вσт нᴇʀᴇ ---" ,
@@ -50,7 +50,7 @@ module.exports = {
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "oxoumbpJ6BnNGfegYjGTEoUu",
   caption :process.env.CAPTION || "```ᴘᴏᴡᴇʀᴇᴅ ʙʏ Hashan```",   //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
   OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'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' ,
-  VERSION: process.env.VERSION || 'v.1.2.3',
+  VERSION: process.env.VERSION || 'v.1.2.2',
   LANG: process.env.THEME ? process.env.THEME.toUpperCase() : 'hashan',
   menu : process.env.MENU || '', /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || 'public',
