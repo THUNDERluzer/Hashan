@@ -4,7 +4,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 //═══════[Required Variables]════════\\
 global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '94782543893';
-global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Saka:Saka@cluster0.jadwggo.mongodb.net/?retryWrites=true&w=majority" ;
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Suhail:suhail@cluster0.rzhkoqf.mongodb.net/?retryWrites=true&w=majority" ;
 global.port= false // Math.floor(Math.random() * (9999 - 1000 + 1)) + 1000  ; 
 global.audio = '' ; 
 global.video = '' ;
@@ -12,7 +12,7 @@ global.blockJids = process.env.BLOCK_JID ||'120363023983262391@g.us' ;
 global.allowJids = process.env.ALLOW_JID ||'120363168396392052@g.us' ;
 global.email = 'nowtyhashan44@gmail.com' ;
 global.location = 'Matara' ;
-global.timezone  = process.env.TIME_ZONE || 'Asia/Colombo'
+global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi'
 global.gurl = 'https://wa.me/qr/P6WADRJOKAFUK1' ; // add your username
 global.sudo =  process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : '94782543893'; ;
 global.devs = "94782543893"; //Dont change it From here
@@ -25,7 +25,7 @@ module.exports = {
   botname: process.env.BOT_NAME || 'Hashan',
   botbgm: process.env.BOT_BGM || 'false',
   ownername:  process.env.OWNER_NAME || `Hashan`,
-  author:  process.env.PACK_AUTHER || 'Hashan',
+  author:  process.env.PACK_AUTHER || '',
   errorChat : process.env.ERROR_CHAT|| '', // put 'chat' here to send error in chat ,where it accures
   read_status : process.env.AUTO_READ_STATUS || 'true',
   save_status : process.env.AUTO_SAVE_STATUS || 'true',
@@ -51,7 +51,7 @@ module.exports = {
   caption :process.env.CAPTION || "```ᴘᴏᴡᴇʀᴇᴅ ʙʏ Hashan```",   //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
   OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'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' ,
   VERSION: process.env.VERSION || 'v.1.2.2',
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : 'hashan',
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : 'HASHAN',
   menu : process.env.MENU || '', /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || 'public',
   KOYEB_API : process.env.KOYEB_API || ''
