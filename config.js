@@ -51,7 +51,7 @@ module.exports = {
   caption :process.env.CAPTION || "```ᴘᴏᴡᴇʀᴇᴅ ʙʏ Hashan```",   //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
   OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'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' ,
   VERSION: process.env.VERSION || 'v.1.2.2',
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : 'HASHAN',
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : 'SUHAIL',
   menu : process.env.MENU || '', /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || 'public',
   KOYEB_API : process.env.KOYEB_API || ''
