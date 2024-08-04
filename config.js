@@ -21,7 +21,7 @@ global.scan  = process.env.QR_URL || 'https://wa.me/qr/P6WADRJOKAFUK1';
 global.website = 'https://wa.me/qr/P6WADRJOKAFUK1' ; //wa.me/+923000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/7721cf222f9790f3fcd1b.jpg' ;
 module.exports = {
-  sessionName: process.env.SESSION_ID || "SESSION_09_33_08_01_NolanRicky",      //Put Your Session Id Here
+  sessionName: process.env.SESSION_ID || "SESSION_04_00_08_04_TatumSolemnly",      //Put Your Session Id Here
   botname: process.env.BOT_NAME || 'Hashan',
   botbgm: process.env.BOT_BGM || 'false',
   ownername:  process.env.OWNER_NAME || `Hashan`,
